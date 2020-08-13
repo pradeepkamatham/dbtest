@@ -29,27 +29,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="emailService.js" />
     <Content Include="emailService\emailService.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="globalDefs.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="jobs\job1.js">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="jobs\job2.js">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="jobs\job3.js">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="models\land_FluxAccount.js">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="logManager\logManager.js">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="logManager.js" />
     <Content Include="package.json" />
     <Content Include="__tests__\emailServiceTests\emailService.tests.js">
       <SubType>Code</SubType>
@@ -68,10 +55,11 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="logManager\" />
     <Folder Include="emailService\" />
     <Folder Include="jobs\" />
     <Folder Include="models\" />
+    <Folder Include="logManager\" />
+    <Folder Include="rawData\" />
     <Folder Include="__tests__\" />
     <Folder Include="__tests__\logManagerTests\" />
     <Folder Include="__tests__\emailServiceTests\" />

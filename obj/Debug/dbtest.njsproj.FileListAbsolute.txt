@@ -1,0 +1,3 @@
+C:\pet_projects\dbtest\dbtest\obj\Debug\dbtest.njsprojAssemblyReference.cache
+C:\pet_projects\dbtest\dbtest\obj\Debug\dbtest.njsproj.CoreCompileInputs.cache
+C:\pet_projects\dbtest\dbtest\bin\Microsoft.NodejsTools.WebRole.dll
